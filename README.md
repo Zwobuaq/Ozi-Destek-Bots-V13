@@ -6,6 +6,8 @@ Discord Sanalını bırakmadan V13 Supportumu paylaşmak istedim star atarsanız
 
 - npm i yap, jaylen.json gir ilk 4 ayarı yap kayıt et botu çalıştır, /kurulum yap kanallar emojiler yüklensin jaylen.jsonun geri kalanını doldur bot hazır kardeşim benim star atmayı unutma <3.
 
+Not: Slash Komutlar yüklenmedi die anneme sövmeyin global olduğu için dm de kullanılıyor ve discord 1 saat içinde garanti komutları yüklüyor.
+
 # Görseller
 ![image](https://user-images.githubusercontent.com/92666466/159189216-2edf7f9f-646e-48d1-aeac-562b7c0f701a.png)
 ![image](https://user-images.githubusercontent.com/92666466/159189220-3de70393-4b85-4bdb-8a54-01f00133e9cd.png)
