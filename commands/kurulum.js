@@ -28,23 +28,8 @@ module.exports = {
     .setStyle("DANGER")
     .setEmoji("920412153712889877") 
 
-    var kkurulum2 = new MessageButton()
-    .setCustomId("kanal")
-    .setLabel("Kanal Kurulum")
-    .setStyle("SUCCESS")
-    .setEmoji("920412144716103801") 
-    .setDisabled(true);
-
-    var ekurulum2 = new MessageButton()
-    .setCustomId("emoji")
-    .setLabel("Emoji Kurulum")
-    .setStyle("DANGER")
-    .setEmoji("920412153712889877") 
-    .setDisabled(true);
-
     const row = new MessageActionRow()
     .addComponents([kkurulum, ekurulum])
-
 
     interaction.reply({ content: `Lütfen **20 saniye** içerisinde hangi kurulum yapacağınızı aşağıdaki butonlara tıklayarak cevaplayınız.`, components: [row], ephemeral: true })
 
