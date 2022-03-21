@@ -45,11 +45,6 @@ module.exports = {
     const row = new MessageActionRow()
     .addComponents([kkurulum, ekurulum])
 
-    const row2 = new MessageActionRow()
-    .addComponents([kkurulum2, ekurulum])
-
-    const row3 = new MessageActionRow()
-    .addComponents([ekurulum2, kkurulum])
 
     interaction.reply({ content: `Lütfen **20 saniye** içerisinde hangi kurulum yapacağınızı aşağıdaki butonlara tıklayarak cevaplayınız.`, components: [row], ephemeral: true })
 
